@@ -1,0 +1,9 @@
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "8pU-oM-tWn"; */
+"8pU-oM-tWn.title" = "Item 1";
+
+/* Class = "UITabBarController"; title = "TabController"; ObjectID = "TKM-Vn-52h"; */
+"TKM-Vn-52h.title" = "TabController";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "xYt-Sp-hnf"; */
+"xYt-Sp-hnf.title" = "Item 2";

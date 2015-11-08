@@ -15,6 +15,10 @@
 		A55548EB1BEE22E500FE6ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55548E91BEE22E500FE6ADD /* LaunchScreen.storyboard */; };
 		A55548F61BEE22E500FE6ADD /* AutoLayoutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55548F51BEE22E500FE6ADD /* AutoLayoutTestTests.m */; };
 		A55549011BEE22E500FE6ADD /* AutoLayoutTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55549001BEE22E500FE6ADD /* AutoLayoutTestUITests.m */; };
+		A55549191BEF329F00FE6ADD /* AutoLayoutWithScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55549181BEF329F00FE6ADD /* AutoLayoutWithScrollView.storyboard */; };
+		A555491C1BEF3AFA00FE6ADD /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A555491B1BEF3AFA00FE6ADD /* CustomCell.m */; };
+		A555491F1BEF437C00FE6ADD /* SelfSizeingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A555491E1BEF437C00FE6ADD /* SelfSizeingTableViewController.m */; };
+		A55549211BEF4CF300FE6ADD /* Center.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55549201BEF4CF300FE6ADD /* Center.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		A55548FC1BEE22E500FE6ADD /* AutoLayoutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55549001BEE22E500FE6ADD /* AutoLayoutTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestUITests.m; sourceTree = "<group>"; };
 		A55549021BEE22E500FE6ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55549181BEF329F00FE6ADD /* AutoLayoutWithScrollView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AutoLayoutWithScrollView.storyboard; path = ../AutoLayoutWithScrollView.storyboard; sourceTree = "<group>"; };
+		A555491A1BEF3AFA00FE6ADD /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		A555491B1BEF3AFA00FE6ADD /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		A555491D1BEF437C00FE6ADD /* SelfSizeingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizeingTableViewController.h; sourceTree = "<group>"; };
+		A555491E1BEF437C00FE6ADD /* SelfSizeingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizeingTableViewController.m; sourceTree = "<group>"; };
+		A55549201BEF4CF300FE6ADD /* Center.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Center.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +115,13 @@
 				A55548DF1BEE22E500FE6ADD /* AppDelegate.m */,
 				A55548E11BEE22E500FE6ADD /* ViewController.h */,
 				A55548E21BEE22E500FE6ADD /* ViewController.m */,
+				A555491D1BEF437C00FE6ADD /* SelfSizeingTableViewController.h */,
+				A555491E1BEF437C00FE6ADD /* SelfSizeingTableViewController.m */,
+				A555491A1BEF3AFA00FE6ADD /* CustomCell.h */,
+				A555491B1BEF3AFA00FE6ADD /* CustomCell.m */,
 				A55548E41BEE22E500FE6ADD /* Main.storyboard */,
+				A55549181BEF329F00FE6ADD /* AutoLayoutWithScrollView.storyboard */,
+				A55549201BEF4CF300FE6ADD /* Center.storyboard */,
 				A55548E71BEE22E500FE6ADD /* Assets.xcassets */,
 				A55548E91BEE22E500FE6ADD /* LaunchScreen.storyboard */,
 				A55548EC1BEE22E500FE6ADD /* Info.plist */,
@@ -244,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55548EB1BEE22E500FE6ADD /* LaunchScreen.storyboard in Resources */,
+				A55549211BEF4CF300FE6ADD /* Center.storyboard in Resources */,
 				A55548E81BEE22E500FE6ADD /* Assets.xcassets in Resources */,
 				A55548E61BEE22E500FE6ADD /* Main.storyboard in Resources */,
+				A55549191BEF329F00FE6ADD /* AutoLayoutWithScrollView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A555491F1BEF437C00FE6ADD /* SelfSizeingTableViewController.m in Sources */,
 				A55548E31BEE22E500FE6ADD /* ViewController.m in Sources */,
 				A55548E01BEE22E500FE6ADD /* AppDelegate.m in Sources */,
 				A55548DD1BEE22E500FE6ADD /* main.m in Sources */,
+				A555491C1BEF3AFA00FE6ADD /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
